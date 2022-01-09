@@ -1,30 +1,38 @@
 {
-    "name": "pycuda-highlighter",
-    "displayName": "PyCUDA highlighter",
-    "description": "This extension highlights embedded cuda sources in python script.",
-    "version": "0.0.1",
-    "publisher": "huangyuyao",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "grammars": [
-            {
-                "path": "./syntaxes/pycuda.tmLanguage.json",
-                "scopeName": "cuda-cpp.injection",
-                "injectTo": ["source.python"],
-                "embeddedLanguages": {
-                  "meta.embedded.block.cuda-cpp": "cuda-cpp"
-                }
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tjyuyao/vscode-pycuda-highlighter.git"
-    }
+	"name": "pycuda-highlighter",
+	"displayName": "PyCUDA highlighter",
+	"description": "This extension highlights embedded cuda sources in python script.",
+	"version": "0.0.2",
+	"publisher": "huangyuyao",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"path": "./syntaxes/pycuda.tmLanguage.json",
+				"scopeName": "cuda-cpp.injection",
+				"injectTo": [
+					"source.python"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.cuda-cpp": "cuda-cpp"
+				}
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tjyuyao/vscode-pycuda-highlighter.git"
+	},
+	"__metadata": {
+		"id": "27ba0126-e377-46d6-aa50-a97b20fabd32",
+		"publisherDisplayName": "huangyuyao",
+		"publisherId": "aa144067-95d7-45e7-bc87-078b685e230d",
+		"isPreReleaseVersion": false
+	}
 }
