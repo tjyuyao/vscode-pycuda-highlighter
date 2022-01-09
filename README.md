@@ -4,7 +4,8 @@
 
 Use `//cuda` and `//!cuda` to specify a docstring as embedded cuda, then the highlight will work. For example:
 
-![Highlight CUDA Docstring](demo.png)
+<img src="https://github.com/tjyuyao/vscode-pycuda-highlighter/raw/master/demo.png" alt="Highlight CUDA Docstring">
+
 
 ## Customize text color
 
