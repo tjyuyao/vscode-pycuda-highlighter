@@ -1,0 +1,25 @@
+{
+  "fileTypes": [
+    "py"
+  ],
+  "injectionSelector": "L:string.quoted.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "patterns": [
+    {
+      "begin": "//cuda",
+      "end": "(//!cuda)",
+      "contentName": "meta.embedded.block.cuda-cpp",
+      "patterns": [
+        {
+          "include": "source.cpp"
+        },
+        {
+          "include": "source.cuda-cpp"
+        },
+        {
+          "include": "source.cpp.embedded.macro"
+        }
+      ]
+    }
+  ],
+  "scopeName": "cuda-cpp.injection"
+}
