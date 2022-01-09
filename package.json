@@ -2,7 +2,7 @@
 	"name": "pycuda-highlighter",
 	"displayName": "PyCUDA highlighter",
 	"description": "This extension highlights embedded cuda sources in python script.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "huangyuyao",
 	"license": "MIT",
 	"engines": {
