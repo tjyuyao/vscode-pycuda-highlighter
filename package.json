@@ -2,7 +2,7 @@
 	"name": "pycuda-highlighter",
 	"displayName": "PyCUDA highlighter",
 	"description": "This extension highlights embedded cuda sources in python script.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "huangyuyao",
 	"license": "MIT",
 	"engines": {
@@ -11,6 +11,7 @@
 	"categories": [
 		"Programming Languages"
 	],
+	"icon": "pycuda128x128.png",
 	"contributes": {
 		"grammars": [
 			{
@@ -29,6 +30,14 @@
 		"type": "git",
 		"url": "https://github.com/tjyuyao/vscode-pycuda-highlighter.git"
 	},
+	"bugs": {
+		"url": "https://github.com/tjyuyao/vscode-pycuda-highlighter/issues",
+		"email": "huangyuyao@outlook.com"
+	},
+	"author": {
+		"name": "Yuyao Huang"
+	},
+	"homepage": "https://github.com/tjyuyao/vscode-pycuda-highlighter/blob/master/README.md",
 	"__metadata": {
 		"id": "27ba0126-e377-46d6-aa50-a97b20fabd32",
 		"publisherDisplayName": "huangyuyao",
