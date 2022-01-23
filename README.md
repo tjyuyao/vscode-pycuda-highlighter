@@ -1,5 +1,9 @@
 # PyCUDA highlighter for VSCode
 
+## Install
+
+Available in [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=huangyuyao.pycuda-highlighter), or search in VSCode.
+
 ## Highlight CUDA Docstring
 
 Use `//cuda` and `//!cuda` to specify a docstring as embedded cuda, then the highlight will work. For example:
